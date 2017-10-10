@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV='production' webpack -p",
-    "deploy": "git push origin master && npm publish"
+    "deploy": "git push origin master && git push fury master"
   },
   "keywords": [
     "fp",
