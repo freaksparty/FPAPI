@@ -1,11 +1,12 @@
 {
   "name": "fpapi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Library to connect with Freaks Party Backend",
   "main": "lib/add.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV='production' webpack -p"
+    "build": "NODE_ENV='production' webpack -p",
+    "deploy": "git push origin master && npm publish"
   },
   "keywords": [
     "fp",
