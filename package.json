@@ -1,6 +1,6 @@
 {
   "name": "fpapi",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Library to connect with Freaks Party Backend",
   "main": "lib/add.js",
   "scripts": {
@@ -20,6 +20,8 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
+    "jwt-decode": "^2.2.0",
+    "store": "^2.0.12",
     "webpack": "^3.6.0",
     "whatwg-fetch": "^2.0.3"
   }
